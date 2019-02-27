@@ -1,11 +1,8 @@
 {
-  "name": "tjbot",
-  "description": "Node.js library for writing TJBot recipes",
-  "version": "1.5.1",
-  "author": "TJBot <tjbot@us.ibm.com>",
-  "bugs": {
-    "url": "https://github.com/ibmtjbot/tjbotlib/issues"
-  },
+  "name": "ryantjbot",
+  "description": "Fork of IBM TJ Bot repository with changes for features such as servo for right arm.",
+  "version": "1.0.0",
+  "author": "Ryan Reed <ryan.reed@ibm.com>",
   "dependencies": {
     "assert": "^1.4.1",
     "bluebird": "^3.5.2",
@@ -24,19 +21,11 @@
   "engines": {
     "node": ">=4.2.4"
   },
-  "homepage": "https://github.com/ibmtjbot/tjbotlib",
-  "keywords": [
-    "tjbot"
-  ],
   "license": "Apache-2.0",
   "main": "index.js",
   "optionalDependencies": {
     "pigpio": "^0.4.0",
-    "rpi-ws281x-native": "^0.8.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ibmtjbot/tjbotlib.git"
+    "rpi-ws281x-native": "^0.9.0"
   },
   "scripts": {
     "test": "mocha --reporter spec"
